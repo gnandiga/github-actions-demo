@@ -51,7 +51,7 @@
 				<version>3.2.1</version>
 				<configuration>
 					<to>
-						<image>docker.io/gnandiga/github-actions-demo</image>
+						<image>gcr.io/elevated-range-364603/gnandiga/github-actions-demo</image>
 					</to>
 				</configuration>
 			</plugin>
