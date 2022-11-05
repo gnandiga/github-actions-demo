@@ -39,7 +39,7 @@ jobs:
       with:
         credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
     - name: Deploy TO GCP
-      run: gcloud run test --image gcr.io/elevated-range-364603/gnandiga/github-actions-demo:latest
+      run: gcloud run deploy test --image gcr.io/elevated-range-364603/gnandiga/github-actions-demo:latest
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
